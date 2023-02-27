@@ -1,7 +1,8 @@
-# Java Template
+# Java Lists
 
 ## Learning Objectives
-- Example learning objective
+- Use Lists to store and manipulate data
+- Use generic typing to define the datatype of items stored in a List
 
 ## Set up instructions
 - Fork this repository and clone the forked version to your machine
