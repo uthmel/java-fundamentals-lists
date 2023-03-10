@@ -62,7 +62,9 @@ class ExerciseTest {
     @Test
     public void mustBeEmpty() {
         ArrayList<String> list = new ArrayList<>();
-        Assertions.assertTrue(this.exercise.isEmpty(list));
+        // Used assertEquals so that the base method which now returns an int doesn't
+        // accidentally pass the test.
+        Assertions.assertEquals(true, this.exercise.isEmpty(list));
     }
 
     @Test
@@ -71,7 +73,9 @@ class ExerciseTest {
             add("Java");
             add("JavaScript");
         }};
-        Assertions.assertFalse(this.exercise.isEmpty(list));
+        // Used assertEquals so that the base method which now returns an int doesn't
+        // accidentally pass the test.
+        Assertions.assertEquals(false, this.exercise.isEmpty(list));
     }
 
     @Test
