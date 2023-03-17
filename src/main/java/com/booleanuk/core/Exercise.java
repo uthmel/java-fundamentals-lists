@@ -52,9 +52,8 @@ public class Exercise extends ExerciseBase {
          - A whole number
          The method must multiply each number in the provided list by the number provided in the second
          parameter, and then return the updated list.
-         Use a combination of a for each loop and the ArrayList set method
-         https://www.w3schools.com/java/java_foreach_loop.asp
-         https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/ArrayList.html#set(int,E)
+         Use the ArrayList's replaceAll method to iterate through the ArrayList and replace each value with its double
+         https://www.programiz.com/java-programming/library/arraylist/replaceall
      */
 
 
