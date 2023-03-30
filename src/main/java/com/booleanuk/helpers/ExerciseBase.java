@@ -13,8 +13,8 @@ public class ExerciseBase {
         return dummy;
     }
 
-    public int isEmpty(ArrayList<String> list) {
-        return -1;
+    public boolean isEmpty(ArrayList<String> list) {
+        return false;
     }
 
     public ArrayList<String> addIngredient(ArrayList<String> list, String ingredient) {
