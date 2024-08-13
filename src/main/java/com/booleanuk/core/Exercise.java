@@ -5,7 +5,6 @@ import com.booleanuk.helpers.ExerciseBase;
 import java.util.ArrayList;
 
 import java.util.List;
-
 public class Exercise extends ExerciseBase {
     /*
         A List is like an array but provides a much easier interface to the items it stores, for example:
